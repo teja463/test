@@ -7,9 +7,9 @@ public class Sample1 {
 
 	public static void main(String[] args) {
 		System.out.println("Hello World..");
-		List<String> list = new ArrayList<String>(){{add("One");add("Two");add("Three");}};
+		List<String> list = new ArrayList<String>(){{add("One");add("Two");add("Three");add("Four");add("Five");}};
 		for(String s : list){
-			System.out.println(s);
+			System.out.println("The Strig value is "+s);
 		}
 	}
 
