@@ -1,11 +1,15 @@
 package com.test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Sample1 {
 
 	public static void main(String[] args) {
-		System.out.println("Main Hello World..");
-		for(int i=0; i<5 ;i++){
-			System.out.println("Hello World..");
+		System.out.println("Hello World..");
+		List<String> list = new ArrayList<String>(){{add("One");add("Two");add("Three");}};
+		for(String s : list){
+			System.out.println(s);
 		}
 	}
 
