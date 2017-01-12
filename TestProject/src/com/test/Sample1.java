@@ -11,7 +11,7 @@ public class Sample1 {
 		for(String s : list){
 			System.out.println("The Strig value is "+s);
 			System.out.println("The Strig value is "+s);
-			
+			System.out.println("test");
 		}
 	}
 
